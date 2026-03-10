@@ -1,0 +1,7 @@
+CREATE TABLE companies (
+company_id SERIAL PRIMARY KEY,
+company_name VARCHAR(255),
+industry VARCHAR(100),
+country VARCHAR(100),
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
